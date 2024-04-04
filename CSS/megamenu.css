@@ -1,0 +1,180 @@
+/* ساب منو کلی*/
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu {
+    width: 74vw;
+    height: 76vh;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    z-index: 2;
+    display: none;
+    background-color: white;
+}
+
+/* هاور کردن ساب منو کلی */
+main.wrapper>div.header>header>div.menu>nav>div:hover>div.submenu {
+    display: block;
+}
+
+/* دیو سمت راست ما */
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right {
+    width: 19%;
+    height: 100%;
+    direction: ltr;
+    overflow-y: scroll;
+    display: inline-block;
+    background-color: crimson;
+}
+
+/* دیوهای کوچیک توی دیو سمت راست */
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div {
+    width: 100%;
+    height: 52px;
+    background-color: rgb(245, 245, 245);
+    direction: rtl;
+}
+
+/* هاور کردن دیوهای کوچیک */
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div:hover {
+    background-color: white;
+}
+
+/* لینک های توی دیو های کوچیک سمت راست */
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a {
+    width: inherit;
+    height: inherit;
+    display: block;
+    padding: 0 8px;
+    text-align: right;
+    line-height: 52px;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div:hover>a>div.subsubmenu {
+    display: block;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div:nth-of-type(1)>a>div.subsubmenu {
+    display: block;
+}
+
+/*  نوشته و شکل های توی لینک های سمت راست*/
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a>span:nth-of-type(1) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #121212;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a>span:nth-of-type(2) {
+    font-family: yekan;
+    font-size: 13px;
+    font-weight: 500;
+    vertical-align: middle;
+    color: #121212;
+}
+
+/* تغییر رنگ نوشته های لینک های سمت راست */
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div:hover>a>span:nth-of-type(1) {
+    color: rgb(239, 57, 78);
+}
+
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div:hover>a>span:nth-of-type(2) {
+    color: rgb(239, 57, 78);
+}
+
+/* زیرمنوی کلی */
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a>div.subsubmenu {
+    width: 81%;
+    height: 100%;
+    background-color: white;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a>div.subsubmenu>div.product {
+    width: 95%;
+    height: 26px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-top: 14px;
+    padding-right: 16px;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a>div.subsubmenu>div.product>span:nth-of-type(1) {
+    font-family: yekan;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(0, 142, 178);
+    vertical-align: middle;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a>div.subsubmenu>div.product>span:nth-of-type(2) {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0, 142, 178);
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+/* چهار تا دیو یزر منوی کلی */
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a>div.subsubmenu>div.row {
+    width: 24.9%;
+    height: 66.8vh;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -3.1px;
+}
+
+/* لینک های اول  چهارتا دیو زیر منو کلی */
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a>div.subsubmenu>div.row>div {
+    width: 100%;
+    height: 38px;
+    display: inline-block;
+    padding: 4px 0 4px 0;
+    margin-bottom: 8px;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a>div.subsubmenu>div.row>div>span:nth-of-type(1) {
+    color: rgb(239 57 78);
+    font-size: 13px;
+    line-height: 30px;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a>div.subsubmenu>div.row>div>span:nth-of-type(2) {
+    font-family: Yekan;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(12 12 12);
+    vertical-align: middle;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a>div.subsubmenu>div.row>div>span:nth-of-type(3) {
+    font-size: 11px;
+    font-weight: 900;
+    color: rgb(12 12 12);
+    vertical-align: middle;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a>div.subsubmenu>div.row>div:hover>span {
+    color: rgb(239 57 78);
+}
+
+/* 6 تا لینک زیر لینک های اول زیرمنوی کلی */
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a>div.subsubmenu>div.row>div.all {
+    width: 100%;
+    height: 34px;
+    display: block;
+    margin: 0;
+    font-family: Yekan;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(129 133 139);
+    padding: 4px 8px;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div>div.submenu>div.right>div>a>div.subsubmenu>div.row>div.all:hover {
+    color: rgb(239 57 78);
+}

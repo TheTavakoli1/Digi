@@ -1,0 +1,175 @@
+main.wrapper div.parent_chosen {
+    width: 87.5%;
+    height: 813px;
+    margin: 16px auto;
+}
+
+main.wrapper div.parent_chosen div.chosen {
+    width: 100%;
+    height: inherit;
+    margin: 0 auto;
+    border: 1px solid rgb(224 224 241);
+    border-radius: 16px;
+    padding: 0 8px 0 8px;
+}
+
+main.wrapper div.parent_chosen div.chosen div.text {
+    width: 99.4%;
+    height: 76px;
+    margin: 0 auto;
+    padding: 16px 0;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+main.wrapper div.parent_chosen div.chosen div.text span {
+    width: 2%;
+    height: 24px;
+    display: inline-block;
+    margin-top: calc((44px - 24px) / 2);
+    vertical-align: sub;
+}
+
+main.wrapper div.parent_chosen div.chosen div.text span i {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(239 64 86);
+    line-height: 24px;
+}
+
+main.wrapper div.parent_chosen div.chosen div.text h3 {
+    display: inline-block;
+    font-family: Yekan;
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(0 0 0);
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid {
+    width: 100%;
+    height: 727px;
+    margin: 0 0;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 {
+    width: inherit;
+    height: inherit;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper {
+    width: inherit;
+    height: inherit;
+    background-color: rgb(224 224 241)
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide {
+    width: 16.5%;
+    height: 242px;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a {
+    width: 100%;
+    height: 242px;
+    display: inline-block;
+    padding: 12px 8px 12px 8px;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all {
+    width: 100%;
+    height: 217px;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.image {
+    width: 100%;
+    height: 154px;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.image {
+    width: 75%;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 26px;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price {
+    width: 100%;
+    height: 64px;
+    padding: 4px 0 0 0;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price div.top {
+    width: 100%;
+    height: 34px;
+
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price div.top div.right {
+    width: 17%;
+    height: 20px;
+    background-color: rgb(211 47 47);
+    display: inline-block;
+    padding: 0 4px 0 4px;
+    border-radius: 15px;
+    margin-right: -4px;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price div.top div.right span {
+    font-family: Yekan;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(255 255 255);
+    vertical-align: middle;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price div.top div.left {
+    width: 83%;
+    height: 34px;
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+    vertical-align: middle;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price div.top div.left span:nth-of-type(1) {
+    width: 41%;
+    height: inherit;
+    display: inline-block;
+    font-family: Yekan;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(63 64 100);
+    line-height: 34px;
+    position: absolute;
+    left: 25px;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price div.top div.left span:nth-of-type(2) {
+    width: 14%;
+    height: 16px;
+    display: inline-block;
+    font-family: Paeez;
+    font-family: 15px;
+    font-weight: 900;
+    color: rgb(63 64 100);
+    line-height: 16px;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price div.botton {
+    width: 100%;
+    height: 26px;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price div.botton span {
+    font-family: Yekan;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(192 194 197);
+    margin-right: 97px;
+    text-decoration-line: line-through;
+    text-decoration-color: rgb(192 194 197);
+    text-decoration-style: solid;
+    text-decoration-thickness: 1px;
+}

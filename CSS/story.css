@@ -1,0 +1,42 @@
+main.wrapper div.Stoy {
+  width: 87.5%;
+  height: 140px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+main.wrapper div.Stoy div.swiper1 {
+  width: 100%;
+  height: inherit;
+}
+
+main.wrapper div.Stoy div.swiper1 div.swiper-wrapper {
+  width: 100%;
+  height: inherit;
+  margin-right: 8px;
+}
+
+main.wrapper div.Stoy div.swiper1 div.swiper-wrapper div.swiper-slide {
+  width: 6.3%;
+  height: 140px;
+  padding: 16px 0;
+  margin-left: 24px;
+}
+
+main.wrapper div.Stoy div.swiper1 div.swiper-wrapper div.swiper-slide img {
+  width: 72.5%;
+  height: 74px;
+  margin: 0 auto;
+  border-radius: 50%;
+  outline: 3px solid #7d4c9e;
+  outline-offset: 3px;
+}
+
+main.wrapper div.Stoy div.swiper1 div.swiper-wrapper div.swiper-slide p {
+  color: rgb(35 37 78);
+  font-size: 11px;
+  font-weight: 400;
+  font-family: Yekan;
+  margin-top: 16px;
+  line-height: 19px;
+}

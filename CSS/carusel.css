@@ -1,0 +1,209 @@
+main.wrapper div.carousel {
+    width: 70%;
+    height: 300px;
+    margin: 18px auto;
+    background-color: #ef3b51;
+    padding: 20px 2px;
+    border-radius: 16px;
+
+}
+
+main.wrapper div.carousel div.swiper3 {
+    width: 100%;
+    height: inherit;
+    border-radius: 16px;
+    scroll-behavior: smooth;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper {
+    width: inherit;
+    height: inherit;
+    border-radius: 16px;
+    scroll-behavior: smooth;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.swiper-slide {
+    width: 12.8%;
+    height: 260px;
+    scroll-behavior: smooth;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide1 {
+    width: 100%;
+    height: 260px;
+    background-color: #ef3b51;
+    margin-top: 15px;
+    padding-right: 12px;
+    border-radius: 16px;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide1 a img {
+    width: 70.2%;
+    height: 95px;
+    margin: 16px auto;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide1 a span:nth-of-type(1) {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Yekan;
+    color: aliceblue;
+    vertical-align: middle;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide1 a span:nth-last-of-type(1) svg {
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 {
+    width: 12.8%;
+    height: 260px;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a {
+    width: 100%;
+    height: inherit;
+    display: inline-block;
+    margin-right: -4px;
+    border-radius: 0 8px 8px 0;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div:nth-of-type(2) {
+    border-radius: 0 8px 8px 0;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent {
+    width: 100%;
+    height: inherit;
+    padding: 12px 16px;
+    border-radius: 0 8px 8px 0;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.image {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 4px;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.image img {
+    width: inherit;
+    height: inherit;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.value {
+    width: 100%;
+    height: 82px;
+    margin-top: 8px;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.value div.top {
+    width: inherit;
+    height: 34px;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.value div.top div.off {
+    width: 34px;
+    height: 20px;
+    background-color: rgb(211 47 47);
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 16px;
+    margin-right: -4px;
+    line-height: 15px;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.value div.top div.off span {
+    font-family: Yekan;
+    font-size: 12px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.value div.top div.price {
+    width: 116px;
+    height: 34px;
+    display: inline-block;
+    padding-right: 24px;
+    margin: 0 -4px;
+    vertical-align: middle;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.value div.top div.price :first-child {
+    width: auto;
+    height: auto;
+    color: rgb(63 64 100);
+    font-family: Yekan;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 34px;
+
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.value div.top div.price :last-child {
+    width: auto;
+    height: auto;
+    color: rgb(63 64 100);
+    font-family: Paeez;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 34px;
+    vertical-align: middle;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.value div.discount {
+    width: 150px;
+    height: 26px;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.value div.discount span {
+    font-family: Yekan;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(192 194 197);
+    margin-right: 50px;
+    text-decoration: line-through 1px rgb(192 194 197);
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div:nth-of-type(14) {
+    padding: 0 32px;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div:nth-of-type(14) a {
+    width: 77px;
+    height: 88px;
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: calc((260px - 88px) / 2);
+
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div:nth-of-type(14) a div.show {
+    width: 77px;
+    height: 88px;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div:nth-of-type(14) a div.show div:first-of-type {
+    width: 46px;
+    height: 46px;
+    background-color: white;
+    border-radius: 50%;
+    outline: rgb(25 191 211) solid 1px;
+    margin: 0 auto;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div:nth-of-type(14) a div.show div:first-of-type i {
+    color: rgb(25 191 211);
+    line-height: 46px;
+    font-size: 16px;
+    font-weight: 00;
+}
+
+main.wrapper div.carousel div.swiper3 div.swiper-wrapper div:nth-of-type(14) a div.show div:last-of-type {
+    font-family: Yekan;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(63 64 100);
+    margin-top: 14px;
+}

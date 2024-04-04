@@ -1,0 +1,28 @@
+main.wrapper div.parent_two_banner {
+    width: 87.5%;
+    height: 264px;
+    margin: 16px auto;
+}
+
+main.wrapper div.parent_two_banner div.two_banner {
+    width: 100%;
+    height: inherit;
+    text-align: center;
+}
+
+main.wrapper div.parent_two_banner div.two_banner a {
+    width: 49.2%;
+    height: inherit;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+main.wrapper div.parent_two_banner div.two_banner a img {
+    width: 100%;
+    height: inherit;
+    border-radius: 16px;
+}
+
+main.wrapper div.parent_two_banner div.two_banner a:nth-of-type(1) {
+    margin-left: 12px;
+}

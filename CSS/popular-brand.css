@@ -1,0 +1,75 @@
+main.wrapper div.parent_popular_brand {
+    width: 87.5%;
+    height: 224px;
+    margin: 16px auto;
+    border: 1px solid rgb(224 224 226);
+    border-radius: 16px;
+}
+
+main.wrapper div.parent_popular_brand div.popular_brand {
+    width: 100%;
+    height: inherit;
+    border-radius: 16px;
+    padding: 24px 0;
+}
+
+main.wrapper div.parent_popular_brand div.popular_brand div.text {
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+}
+
+main.wrapper div.parent_popular_brand div.popular_brand div.text div {
+    width: 1.8%;
+    height: 24px;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+main.wrapper div.parent_popular_brand div.popular_brand div.text div i {
+    font-size: 20px;
+    color: rgb(249 188 0);
+    vertical-align: top;
+}
+
+main.wrapper div.parent_popular_brand div.popular_brand div.text p {
+    display: inline-block;
+    vertical-align: top;
+    font-family: Yekan;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+main.wrapper div.parent_popular_brand div.popular_brand div.swiper5 {
+    width: 100%;
+    height: 118px;
+    background-color: rgb(224 224 226);
+    margin-top: 12px;
+}
+
+main.wrapper div.parent_popular_brand div.popular_brand div.swiper5 div.swiper-wrapper {
+    width: inherit;
+    height: inherit;
+    background-color: rgb(224 224 226);
+}
+
+main.wrapper div.parent_popular_brand div.popular_brand div.swiper5 div.swiper-wrapper div.swiper-slide {
+    width: 10.5%;
+    height: 118px;
+}
+
+main.wrapper div.parent_popular_brand div.popular_brand div.swiper5 div.swiper-wrapper div.swiper-slide a {
+    width: 100%;
+    height: inherit;
+    display: inline-block;
+    padding: 4px 16px;
+}
+
+main.wrapper div.parent_popular_brand div.popular_brand div.swiper5 div.swiper-wrapper div.swiper-slide a img {
+    width: 77.5%;
+    height: 110px;
+    margin: 0 auto;
+    object-fit: contain;
+}

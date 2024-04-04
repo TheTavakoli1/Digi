@@ -1,0 +1,167 @@
+div.parent_help {
+    width: 48px;
+    height: 48px;
+    background-color: rgb(239, 64, 86);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 20;
+    bottom: 12px;
+    left: 50px;
+}
+
+div.parent_help label i {
+    font-size: 24px;
+    color: aliceblue;
+    line-height: 48px;
+    margin-right: 12px;
+}
+
+div.parent_help div.modal_h {
+    width: 358px;
+    height: 630px;
+    background-color: white;
+    border-radius: 16px;
+    display: inline-block;
+    position: absolute;
+    left: 2px;
+    bottom: 65px;
+    display: none;
+    border: 1px solid rgb(239, 64, 86);
+}
+
+
+div.parent_help div.modal_h div.top label[for="close2"] {
+    width: 20px;
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 5px;
+    font-size: 35px;
+    line-height: 25px;
+    text-align: center;
+}
+
+div.parent_help div.modal_h div.top label[for="close2"] i {
+    font-size: 18px;
+}
+
+#show2:checked~div.modal_h {
+    display: block;
+}
+
+#show2,
+#close2 {
+    display: none;
+}
+
+div.parent_help div.modal_h div.top {
+    width: 358px;
+    height: 56px;
+    background-color: rgb(239, 64, 86);
+    border-radius: 16px 16px 0 0;
+    padding: 8px 20px;
+}
+
+div.parent_help div.modal_h div.top div.text {
+    width: 89%;
+    height: 40px;
+    color: aliceblue;
+}
+
+div.parent_help div.modal_h div.top div.text h2 {
+    font-family: Yekan;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+}
+
+div.parent_help div.modal_h div.bottom {
+    width: 355px;
+    height: 602px;
+    border-radius: 0 0 16px 16px;
+    padding: 12px 8px 20px 8px;
+}
+
+div.parent_help div.modal_h div.bottom div.hello {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 4px;
+}
+
+div.parent_help div.modal_h div.bottom div.hello:first-child {
+    font-family: Yekan;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 40px;
+}
+
+div.parent_help div.modal_h div.bottom div.text2 {
+    width: 90%;
+    height: 60px;
+}
+
+div.parent_help div.modal_h div.bottom div.text2 p {
+    font-family: Yekan;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+div.parent_help div.modal_h div.bottom div.question {
+    width: 90%;
+    height: 340px;
+    margin: 16px 0 20px 0;
+}
+
+div.parent_help div.modal_h div.bottom div.question div.q1 {
+    width: 100%;
+    height: 71px;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+div.parent_help div.modal_h div.bottom div.question div.q1 p {
+    font-family: Yekan;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    line-height: 49px;
+    padding: 12px 12px;
+}
+
+div.parent_help div.modal_h div.bottom div.question div.q2 {
+    width: 100%;
+    height: 75px;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+div.parent_help div.modal_h div.bottom div.question div.q2 p {
+    font-family: Yekan;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    line-height: 49px;
+    padding: 12px 12px;
+}
+
+div.parent_help div.modal_h div.bottom div.question div.q3 {
+    width: 100%;
+    height: 135px;
+    border: 1px solid rgb(224, 224, 226);
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+div.parent_help div.modal_h div.bottom div.question div.q3 p {
+    font-family: Yekan;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    line-height: 35px;
+    padding: 12px 12px;
+}

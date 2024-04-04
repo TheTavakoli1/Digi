@@ -1,0 +1,423 @@
+main.wrapper div.header {
+  width: 100%;
+  height: 168px;
+  box-shadow: 1px 1px 1px rgb(197, 196, 196);
+}
+
+main.wrapper div.header header {
+  width: inherit;
+  height: 168px;
+}
+
+main.wrapper div.header header div.top-header {
+  width: inherit;
+  height: 128px;
+}
+
+main.wrapper div.header header div.top-header div.top {
+  width: 100%;
+  height: 60px;
+}
+
+main.wrapper div.header header div.top-header div.top img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  position: fixed;
+  background-color: white;
+  z-index: 999;
+}
+
+main.wrapper div.header header div.top-header div.bottom {
+  width: 100%;
+  height: 68px;
+  padding: 0px 16px;
+  position: fixed;
+  background-color: white;
+  z-index: 999;
+}
+
+main.wrapper div.header header div.top-header div.bottom div.logotype {
+  width: 9%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -3px;
+}
+
+main.wrapper div.header header div.top-header div.bottom div.logotype svg {
+  width: 115px;
+  height: 30px;
+  margin-top: calc((68px - 30px) / 2);
+  margin-right: 9px;
+}
+
+main.wrapper div.header header div.top-header div.bottom div.search-bar {
+  width: 74%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -3px;
+  text-align: right;
+  padding: 12px 0px;
+}
+
+main.wrapper div.header header div.top-header div.bottom div.search-bar form {
+  width: 600px;
+  height: 44px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 8px;
+  direction: ltr;
+  background-color: #f0f0f1;
+  margin-right: 6px;
+}
+
+main.wrapper div.header header div.top-header div.bottom div.search-bar form input[type="search"] {
+  width: 550px;
+  height: 44px;
+  background-color: #f0f0f1;
+  border-radius: 8px;
+  direction: rtl;
+  outline: unset;
+  border: unset;
+  vertical-align: top;
+  font-family: yekan;
+  font-weight: 400;
+  font-size: 11.6px;
+  transition: 1000ms;
+  padding: 0 7px;
+}
+
+main.wrapper div.header header div.top-header div.bottom div.search-bar form input:focus {
+  background-color: white;
+  transition: 1000ms;
+}
+
+main.wrapper div.header header div.top-header div.bottom div.search-bar form span.magnifier {
+  width: 45px;
+  height: 44px;
+  display: inline-block;
+  border-radius: 8px;
+  text-align: center;
+
+}
+
+main.wrapper div.header header div.top-header div.bottom div.search-bar form span.magnifier i {
+  color: rgb(161 163 168);
+  font-size: 17.8px;
+  font-weight: 500;
+  margin-top: 13.5px;
+  padding: 0px 15px 0px 0px;
+}
+
+main.wrapper div.header header div.top-header div.bottom div.register {
+  width: 15%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -3px;
+  margin-right: 16px;
+}
+
+main.wrapper div.header header div.top-header div.bottom div.register a.login {
+  width: 135px;
+  height: 40px;
+  display: inline-block;
+  margin-top: calc((68px - 40px) / 2);
+  text-decoration: none;
+  color: #424750;
+  font-family: yekan;
+  font-size: 10px;
+  border: 1px solid #e0e0e2;
+  border-radius: 8px;
+  padding: 10px 16px;
+  margin-right: 25px;
+}
+
+main.wrapper div.header header div.top-header div.bottom div.register a.login span.icon i {
+  font-size: 19px;
+  font-weight: 400;
+  color: rgb(66, 71, 80);
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+main.wrapper div.header header div.top-header div.bottom div.register a.login span {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+main.wrapper div.header header div.top-header div.bottom div.register a.login span:nth-of-type(3) {
+  font-weight: 700;
+}
+
+main.wrapper div.header header div.top-header div.bottom div.register span.vertical-line {
+  width: 1px;
+  height: 24px;
+  background-color: rgb(224, 224, 226);
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 6px 0 12px;
+}
+
+main.wrapper div.header header div.top-header div.bottom div.register a.shop i {
+  display: inline-block;
+  color: rgb(66, 71, 80);
+  font-size: 19px;
+  font-weight: 500;
+  vertical-align: middle;
+
+}
+
+main.wrapper>div.header>header>div.menu {
+  width: inherit;
+  height: 40px;
+  display: inline-block;
+  padding: 0 16px;
+}
+
+main.wrapper>div.header>header>div.menu>nav {
+  width: 85%;
+  height: 40px;
+  display: inline-block;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div {
+  width: auto;
+  height: inherit;
+  display: inline-block;
+  position: relative;
+  transition: 100ms;
+
+}
+
+main.wrapper>div.header>header>div.menu>nav>div:hover {
+  border-bottom: 3px solid crimson;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div>a {
+  width: auto;
+  height: auto;
+  display: inline-block;
+  color: rgb(98 102 109);
+  margin-top: 9px;
+  padding: 0 12px;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  font-family: Yekan;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div:nth-of-type(1)>a {
+  font-size: 14px;
+  color: rgb(63, 64, 100);
+  font-weight: 500;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div:nth-of-type(1)>a>i {
+  margin-left: 8px;
+  vertical-align: middle;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: rgb(63, 64, 100);
+}
+
+main.wrapper>div.header>header>div.menu>nav>div:nth-of-type(2) {
+  width: .8px;
+  height: 16px;
+  background-color: #dfe1e1;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-left: -5px;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div:nth-of-type(8) {
+  width: .8px;
+  height: 16px;
+  background-color: #dfe1e1;
+  vertical-align: middle;
+  margin-left: -4px;
+}
+
+main.wrapper>div.header>header>div.menu>nav>div>a>i {
+  color: rgb(161, 163, 168);
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+main.wrapper div.header header div.menu div.location {
+  width: 15%;
+  height: inherit;
+  display: inline-block;
+  margin-left: -4px;
+  vertical-align: top;
+  line-height: 40px;
+}
+
+main.wrapper div.header header div.menu div.location span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+main.wrapper div.header header div.menu div.location span i {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+main.wrapper div.header header div.menu div.location div.label {
+  width: 146px;
+  height: 26px;
+  display: inline-block;
+}
+
+main.wrapper div.header header div.menu div.location label[for=show] {
+  font-family: Yekan;
+  line-height: 26px;
+  font-size: 12px;
+  font-weight: 100;
+  color: rgb(63 64 100);
+}
+
+/* Modal */
+main.wrapper div.header header div.menu div.location div.modal {
+  width: 460px;
+  height: 604px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 16px;
+  display: inline-block;
+  position: absolute;
+  left: calc(50% - 450px / 2);
+  z-index: 5;
+  overflow-y: scroll;
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  border-radius: 16px;
+  height: 300px;
+}
+
+main.wrapper div.header header div.menu div.location div.modal div.top {
+  width: 100%;
+  height: 59px;
+  padding: 0 20px;
+  border-bottom: 1px solid rgb(197, 196, 196);
+  background-color: rgb(250, 250, 250);
+}
+
+#show:checked~div.modal {
+  display: block;
+}
+
+#close:checked~div.modal {
+  display: none;
+}
+
+#show,
+#close {
+  display: none;
+}
+
+main.wrapper div.header header div.menu div.location div.modal div.top div.text {
+  width: 52%;
+  height: 34px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: calc((59px - 34px) / 2);
+}
+
+main.wrapper div.header header div.menu div.location div.modal div.top div.text p {
+  font-family: Yekan;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(12 12 12);
+  line-height: 34px
+}
+
+main.wrapper div.header header div.menu div.location div.modal div.top label[for="close"] {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  font-size: 35px;
+  line-height: 25px;
+  text-align: center;
+}
+
+main.wrapper div.header header div.menu div.location div.modal div.bottom {
+  width: 100%;
+  height: 1750px;
+  padding: 16px 20px;
+}
+
+main.wrapper div.header header div.menu div.location div.modal div.bottom a.autoloc {
+  width: 100%;
+  height: 57px;
+  display: inline-block;
+  padding: 12px 0;
+}
+
+main.wrapper div.header header div.menu div.location div.modal div.bottom a.autoloc span:first-child {
+  width: 5.2%;
+  height: 24px;
+  display: inline-block;
+  vertical-align: top;
+  color: #19bfd3;
+  line-height: 18px;
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+main.wrapper div.header header div.menu div.location div.modal div.bottom a.autoloc span:last-child {
+  width: 28%;
+  height: 22px;
+  color: #19bfd3;
+  vertical-align: top;
+  margin-top: 5px;
+  font-family: Yekan;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+main.wrapper div.header header div.menu div.location div.modal div.bottom div.city {
+  width: 100%;
+  height: 1750px;
+  background-color: rgb(250, 250, 250);
+  display: block;
+}
+
+main.wrapper div.header header div.menu div.location div.modal div.bottom div.city a {
+  width: 100%;
+  height: 56.5px;
+  display: block;
+  position: relative;
+  border-bottom: 1px solid rgb(224, 224, 226);
+}
+
+main.wrapper div.header header div.menu div.location div.modal div.bottom div.city a span:first-child {
+  width: 70%;
+  height: 22px;
+  font-family: Yekan;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(12 12 12);
+}
+
+main.wrapper div.header header div.menu div.location div.modal div.bottom div.city a span:last-child {
+  position: absolute;
+  left: 0;
+  top: 3px;
+  vertical-align: middle;
+  font-weight: 700;
+  color: rgb(12 12 12);
+}

@@ -1,0 +1,134 @@
+main.wrapper div.parent_amazng {
+    width: 87.5%;
+    height: 110px;
+    margin: 16px auto;
+}
+
+main.wrapper div.parent_amazng div.amazing {
+    width: 100%;
+    height: 110px;
+}
+
+main.wrapper div.parent_amazng div.amazing a {
+    width: 100%;
+    height: 110px;
+    background-color: #ebeeea;
+    position: relative;
+    display: inline-block;
+    padding: 16px 40px 12px 40px;
+    border-radius: 16px;
+}
+
+main.wrapper div.parent_amazng div.amazing a div.bg svg {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    z-index: 1;
+}
+
+main.wrapper div.parent_amazng div.amazing a div.right {
+    width: 37.1%;
+    height: 62px;
+    display: inline-block;
+    margin-top: calc((82px - 62px) / 2);
+}
+
+main.wrapper div.parent_amazng div.amazing a div.right img {
+    width: 14.2%;
+    height: 62px;
+    vertical-align: middle;
+}
+
+main.wrapper div.parent_amazng div.amazing a div.right div.fresh2 {
+    width: 53.55%;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 16px;
+}
+
+main.wrapper div.parent_amazng div.amazing a div.right div.fresh2 svg {
+    width: 100%;
+    height: inherit;
+}
+
+main.wrapper div.parent_amazng div.amazing a div.right div.off {
+    width: 24.5%;
+    height: 28px;
+    background-color: rgb(57 174 0);
+    display: inline-block;
+    border-radius: 16px;
+    vertical-align: middle;
+    margin-left: -4px;
+    padding: 0 12px;
+}
+
+main.wrapper div.parent_amazng div.amazing a div.right div.off p {
+    font-family: Yekan;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255 255 255);
+    line-height: 28px;
+}
+
+main.wrapper div.parent_amazng div.amazing a div.left {
+    width: 47.6%;
+    height: 74px;
+    display: inline-block;
+    margin-left: 16px;
+    vertical-align: middle;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+}
+
+main.wrapper div.parent_amazng div.amazing a div.left div.product {
+    width: 77.36%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main.wrapper div.parent_amazng div.amazing a div.left div.product div {
+    width: 15%;
+    height: 74px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 4px;
+    border-radius: 50%;
+
+}
+
+main.wrapper div.parent_amazng div.amazing a div.left div.product div img {
+    width: 78.39%;
+    height: 58px;
+    margin-right: 8px;
+    margin-top: 8px;
+    border-radius: 50%;
+}
+
+main.wrapper div.parent_amazng div.amazing a div.left div.more {
+    width: 22.64%;
+    height: 50px;
+    background-color: white;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: middle;
+    border-radius: 32px;
+    padding-right: 20px;
+}
+
+main.wrapper div.parent_amazng div.amazing a div.left div.more span:nth-of-type(1) {
+    color: rgb(57 174 0);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Yekan;
+    line-height: 50px;
+}
+
+main.wrapper div.parent_amazng div.amazing a div.left div.more span:nth-of-type(2) {
+    margin-right: 8px;
+    color: rgb(57 174 0);
+    font-weight: 800;
+    vertical-align: sub;
+}

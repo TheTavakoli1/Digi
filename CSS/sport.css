@@ -1,0 +1,21 @@
+main.wrapper div.sport {
+    width: 87.5%;
+    height: 167px;
+    margin: 16px auto;
+    background-color: teal;
+    border-radius: 16px;
+}
+
+main.wrapper div.sport a {
+    width: 100%;
+    height: inherit;
+    margin: 16px auto;
+    border-radius: 16px;
+}
+
+main.wrapper div.sport a img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 16px;
+}

@@ -1,0 +1,88 @@
+main.wrapper div.offers {
+  width: 87.5%;
+  height: 96px;
+  margin: 0 auto;
+}
+
+main.wrapper div.offers div.offer {
+  width: 100%;
+  height: inherit;
+  display: inline-block;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+main.wrapper div.offers div.offer div {
+  display: inline-block;
+  margin: 0 47px;
+}
+
+main.wrapper div.offers div.offer div:nth-child(1) {
+  width: 4.7%;
+  height: 80px;
+  text-align: center;
+}
+
+main.wrapper div.offers div.offer div:nth-child(2) {
+  width: 3.9%;
+  height: 80px;
+  text-align: center;
+}
+
+main.wrapper div.offers div.offer div:nth-child(3) {
+  width: 4.2%;
+  height: 80px;
+  text-align: center;
+}
+
+main.wrapper div.offers div.offer div:nth-child(4) {
+  width: 6.25%;
+  height: 80px;
+  text-align: center;
+}
+
+main.wrapper div.offers div.offer div:nth-child(5) {
+  width: 6.85%;
+  height: 80px;
+  text-align: center;
+}
+
+main.wrapper div.offers div.offer div:nth-child(6) {
+  width: 5.2%;
+  height: 80px;
+  text-align: center;
+}
+
+main.wrapper div.offers div.offer div:nth-child(7) {
+  width: 4%;
+  height: 80px;
+  text-align: center;
+}
+
+main.wrapper div.offers div.offer div:nth-child(8) {
+  width: 5.2%;
+  height: 80px;
+  text-align: center;
+}
+
+main.wrapper div.offers div.offer div a img {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(235, 234, 234);
+  border-radius: 50%;
+}
+
+main.wrapper div.offers div.offer div a p {
+  width: 90px;
+  height: 23px;
+  text-align: right;
+  margin-top: 4px;
+  color: rgb(63 64 100);
+  font-family: yekan;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+:link {
+  text-decoration: none;
+}

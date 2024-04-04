@@ -1,0 +1,489 @@
+/* Parent Footer */
+main.wrapper div.parent_footer {
+    width: 100%;
+    height: 1157px;
+    border-top: 1px solid rgb(240 240 241);
+    margin-top: 48px;
+    padding-top: 32px;
+}
+
+main.wrapper div.parent_footer div.footer {
+    width: inherit;
+    height: 965px;
+    padding: 0 20px 0 20px;
+}
+
+/* Top Logo Type ( Right Side ) */
+main.wrapper div.parent_footer div.footer div.toplogo {
+    width: inherit;
+    height: 40px;
+    position: relative;
+}
+
+main.wrapper div.parent_footer div.footer div.toplogo div.image {
+    width: 8%;
+    height: 30px;
+    display: inline-block;
+    margin-left: 16px;
+    margin-top: calc((40px - 30px) / 2);
+}
+
+main.wrapper div.parent_footer div.footer div.toplogo div.image svg {
+    width: 100%;
+    height: inherit;
+}
+
+/* Return Botton ( left side ) */
+main.wrapper div.parent_footer div.footer div.toplogo div.return {
+    width: 10%;
+    height: inherit;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    border-radius: 8px;
+}
+
+main.wrapper div.parent_footer div.footer div.toplogo div.return a {
+    width: 100%;
+    height: inherit;
+    display: block;
+    padding: 8px 16px 8px 16px;
+    border: 1px solid rgb(224 224 226);
+    text-align: center;
+    border-radius: 8px;
+}
+
+main.wrapper div.parent_footer div.footer div.toplogo div.return a span:first-child {
+    font-family: Yekan;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(161 163 168);
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+main.wrapper div.parent_footer div.footer div.toplogo div.return a span:last-child {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(161 163 168);
+    vertical-align: middle;
+}
+
+/* digikala contact */
+main.wrapper div.parent_footer div.footer div.contact {
+    width: inherit;
+    height: 26px;
+    margin-top: 12px;
+}
+
+main.wrapper div.parent_footer div.footer div.contact p {
+    width: fit-content;
+    height: inherit;
+    display: inline-block;
+    font-family: Yekan;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(63 64 100);
+    line-height: 26px;
+}
+
+main.wrapper div.parent_footer div.footer div.contact span {
+    font-family: Yekan;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(161 163 168);
+    margin: 0 20px;
+    line-height: 26px;
+}
+
+/* Digikala Option ( Ability ) */
+main.wrapper div.parent_footer div.footer div.option {
+    width: inherit;
+    height: 104px;
+    background-color: darksalmon;
+    margin: 32px 0 32px 0;
+}
+
+main.wrapper div.parent_footer div.footer div.option a {
+    width: 20%;
+    height: inherit;
+    background-color: white;
+    display: inline-block;
+    margin-left: -4px;
+    padding: 12px 0 12px 0;
+    text-align: center;
+}
+
+main.wrapper div.parent_footer div.footer div.option a div.image {
+    width: 20%;
+    height: 56px;
+    margin: 0 auto;
+}
+
+main.wrapper div.parent_footer div.footer div.option a div.image svg {
+    width: 100%;
+    height: 56px;
+}
+
+main.wrapper div.parent_footer div.footer div.option a p {
+    font-family: Yekan;
+    font-size: 11px;
+    font-weight: 400;
+    color: rgb(61 62 100);
+}
+
+/* Digikala Services */
+main.wrapper div.parent_footer div.footer div.services {
+    width: inherit;
+    height: 270px;
+    margin: 0 0 32px 0;
+}
+
+main.wrapper div.parent_footer div.footer div.services div {
+    height: inherit;
+    display: inline-block;
+    margin-left: -4px;
+    vertical-align: top;
+}
+
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(1) {
+    width: 25.3%;
+    height: inherit;
+}
+
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(2) {
+    width: 26.3%;
+    height: inherit;
+}
+
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(3) {
+    width: 26.6%;
+    height: inherit;
+}
+
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(4) {
+    width: 21.8%;
+    height: inherit;
+}
+
+main.wrapper div.parent_footer div.footer div.services div p {
+    height: 33.59px;
+    font-family: Yekan;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(63 64 100);
+    margin-bottom: 8px;
+}
+
+main.wrapper div.parent_footer div.footer div.services div a {
+    width: fit-content;
+    height: 30px;
+    display: block;
+    font-family: Yekan;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(129 133 139);
+    margin-bottom: 8px;
+}
+
+/* div 4 things ( Social media ) */
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(4) p {
+    margin-bottom: 12px;
+}
+
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(4) div.social {
+    width: 100%;
+    height: 40px;
+}
+
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(4) div.social a {
+    display: inline-block;
+    margin-left: 32px;
+    font-size: 32px;
+    margin-right: 4px;
+}
+
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(4) div.login {
+    width: 100%;
+    height: 94px;
+    margin-top: 32px;
+}
+
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(4) div.login form {
+    width: 100%;
+    height: 48px;
+}
+
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(4) div.login form input[type="email"] {
+    width: 81%;
+    height: 48px;
+    background-color: rgb(240 240 241);
+    display: inline-block;
+    padding: 0 8px;
+    border-radius: 8px;
+    outline: unset;
+    border: unset;
+    margin-left: -4px;
+}
+
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(4) div.login form input[type="email"]::placeholder {
+    font-family: Yekan;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(160, 160, 160);
+}
+
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(4) div.login form button {
+    width: 16.3%;
+    height: inherit;
+    background-color: rgb(224 224 226);
+    display: inline-block;
+    border-radius: 8px;
+    font-family: Yekan;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255 255 255);
+    padding: 12px 16px;
+    margin-right: 8px;
+    border: unset;
+}
+
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(4) div.login h4 {
+    font-family: Yekan;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(63 64 100);
+    margin-bottom: 12px;
+}
+
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(4) div.social {
+    width: 100%;
+    height: 40px;
+}
+
+main.wrapper div.parent_footer div.footer div.services div:nth-of-type(4) div.social a {
+    display: inline-block;
+    margin-left: 32px;
+    font-size: 32px;
+    margin-right: 4px;
+}
+
+/* digikala APP */
+main.wrapper div.parent_footer div.footer div.app {
+    width: inherit;
+    height: 76px;
+    background-color: rgb(60 75 109);
+    border-radius: 8px;
+    padding: 8px 20px 8px 20px;
+    margin-bottom: 28px;
+}
+
+main.wrapper div.parent_footer div.footer div.app div.right {
+    width: 20%;
+    height: 44px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main.wrapper div.parent_footer div.footer div.app div.right div.image {
+    width: 15%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main.wrapper div.parent_footer div.footer div.app div.right div.image img {
+    width: 100%;
+    height: inherit;
+}
+
+main.wrapper div.parent_footer div.footer div.app div.right p {
+    font-family: Yekan;
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(255 255 255);
+    margin-right: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main.wrapper div.parent_footer div.footer div.app div.left {
+    width: 79.6%;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    direction: ltr;
+}
+
+main.wrapper div.parent_footer div.footer div.app div.left a {
+    width: 12.5%;
+    height: 40px;
+    display: inline-block;
+    margin: 8px 8px 8px 2px;
+    vertical-align: top;
+}
+
+main.wrapper div.parent_footer div.footer div.app div.left a img {
+    width: 100%;
+    height: 44px;
+}
+
+main.wrapper div.parent_footer div.footer div.app div.left a:first-child {
+    width: 4%;
+    height: 44px;
+    margin-right: 16px;
+    margin-left: -4px;
+    background-color: rgb(255 255 255);
+    border-radius: 4px;
+}
+
+/* Digikala Store */
+main.wrapper div.parent_footer div.footer div.store {
+    width: 100%;
+    height: 224px;
+    padding: 32px 0 32px 0;
+    border-top: .1px solid rgb(240 240 241);
+    border-bottom: .1px solid rgb(240 240 241);
+}
+
+/* Right */
+main.wrapper div.parent_footer div.footer div.store div.right {
+    width: 74%;
+    height: 159px;
+    display: inline-block;
+}
+
+main.wrapper div.parent_footer div.footer div.store div.right div.text {
+    width: 96%;
+    height: 125px;
+    margin-left: 40px;
+    padding-top: 8px;
+    overflow-y: scroll;
+}
+
+main.wrapper div.parent_footer div.footer div.store div.right div.text h1 {
+    font-family: Yekan;
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(98 102 109);
+}
+
+main.wrapper div.parent_footer div.footer div.store div.right div.text p {
+    font-family: Yekan;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(129 133 139);
+    line-height: 30px;
+}
+
+main.wrapper div.parent_footer div.footer div.store div.right a {
+    width: 9%;
+    height: 26px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+main.wrapper div.parent_footer div.footer div.store div.right span:nth-of-type(1) {
+    font-family: yekan;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(25, 191, 211);
+    margin-top: 8px;
+}
+
+main.wrapper div.parent_footer div.footer div.store div.right span:nth-of-type(2) {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(25, 191, 211);
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+/*  Left */
+main.wrapper div.parent_footer div.footer div.store div.left {
+    width: 25.12%;
+    height: 109px;
+    display: inline-block;
+    margin-left: -3px;
+    vertical-align: top;
+    direction: ltr;
+}
+
+main.wrapper div.parent_footer div.footer div.store div.left a {
+    width: 28.9%;
+    height: 109px;
+    display: inline-block;
+    border: 1px solid rgb(224 224 246);
+    border-radius: 8px;
+    margin-right: 8px;
+    padding: 16px;
+    margin-left: -4px;
+}
+
+main.wrapper div.parent_footer div.footer div.store div.left a div.image {
+    width: 100%;
+    height: 75px;
+}
+
+main.wrapper div.parent_footer div.footer div.store div.left a div.image img {
+    width: 100%;
+    height: 75px;
+    object-fit: contain;
+}
+
+main.wrapper div.parent_footer div.footer div.law {
+    width: 100%;
+    height: 89px;
+    padding: 32px 0;
+    text-align: center;
+}
+
+main.wrapper div.parent_footer div.footer div.law p {
+    font-family: Yekan;
+    font-size: 11px;
+    font-size: 400;
+    color: rgb(129 133 139);
+}
+
+main.wrapper div.parent_footer div.brand {
+    width: 100%;
+    height: 160px;
+
+}
+
+main.wrapper div.parent_footer div.brand a.top {
+    width: 12.5%;
+    height: 80px;
+    background-color: rgb(240, 240, 241);
+    display: inline-block;
+    margin-left: -4px;
+    border-left: 1px solid rgb(224 224 226);
+    padding: 0 20px 0 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+main.wrapper div.parent_footer div.brand a.top img {
+    width: fit-content;
+    height: 20px;
+    margin-top: calc((80px - 20px) / 2);
+}
+
+main.wrapper div.parent_footer div.brand a.botton {
+    width: 14.28%;
+    height: 80px;
+    background-color: rgb(240, 240, 241);
+    display: inline-block;
+    margin-left: -4px;
+    border-left: 1px solid rgb(224 224 226);
+    border-top: 1px solid rgb(224 224 226);
+    padding: 0 20px;
+    text-align: center;
+}
+
+main.wrapper div.parent_footer div.brand a.botton img {
+    width: fit-content;
+    height: 20px;
+    margin-top: calc((80px - 20px) / 2);
+}

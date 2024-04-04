@@ -1,0 +1,96 @@
+/* All */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Main Setting */
+main.wrapper {
+  width: 100%;
+  height: auto;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(214, 214, 214);
+}
+
+/* Font */
+@font-face {
+  font-family: Yekan;
+  src: url(../Font/Farsi/IRANYekanWeb-Medium.eot);
+  src: url(../Font/Farsi/IRANYekanWeb-Medium.ttf);
+  src: url(../Font/Farsi/IRANYekanWeb-Medium.woff);
+  src: url(../Font/Farsi/IRANYekanWeb-Medium.woff2);
+}
+
+@font-face {
+  font-family: Paeez;
+  src: url(../Font/Farsi/PaeezRegular.eot);
+  src: url(../Font/Farsi/PaeezRegular.ttf);
+  src: url(../Font/Farsi/PaeezRegular.woff);
+  src: url(../Font/Farsi/PaeezRegular.woff2);
+}
+
+/* Swiper (Global) */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  color: #424750;
+  cursor: pointer;
+  font-size: 14px !important;
+  line-height: 40px !important;
+  text-align: center !important;
+  font-weight: 900;
+  border-radius: 50%;
+  border: 1px solid rgb(224 224 226);
+}
+
+.swiper-button-prev::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  color: #424750;
+  cursor: pointer;
+  font-size: 14px !important;
+  line-height: 40px !important;
+  text-align: center !important;
+  font-weight: 900;
+  border-radius: 50%;
+  border: 1px solid rgb(224 224 226);
+}
