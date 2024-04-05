@@ -286,16 +286,17 @@ main.wrapper div.header header div.menu div.location label[for=show] {
 
 /* Modal */
 main.wrapper div.header header div.menu div.location div.modal {
-  width: 460px;
-  height: 604px;
+  width: 430px;
+  height: 700px;
   background-color: rgb(250, 250, 250);
   border-radius: 16px;
   display: inline-block;
   position: absolute;
   left: calc(50% - 450px / 2);
-  z-index: 5;
+  z-index: 10;
   overflow-y: scroll;
   display: none;
+  top: 130px;
 }
 
 ::-webkit-scrollbar {

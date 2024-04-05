@@ -16,9 +16,9 @@ div.parent_help label i {
     margin-right: 12px;
 }
 
-div.parent_help div.modal_h {
+div.parent_help>div.modal_h {
     width: 358px;
-    height: 630px;
+    height: 595px;
     background-color: white;
     border-radius: 16px;
     display: inline-block;
@@ -26,7 +26,7 @@ div.parent_help div.modal_h {
     left: 2px;
     bottom: 65px;
     display: none;
-    border: 1px solid rgb(239, 64, 86);
+    border: 1px solid rgb(239, 64, 86);    
 }
 
 
@@ -79,7 +79,7 @@ div.parent_help div.modal_h div.top div.text h2 {
 
 div.parent_help div.modal_h div.bottom {
     width: 355px;
-    height: 602px;
+    height: 660px;
     border-radius: 0 0 16px 16px;
     padding: 12px 8px 20px 8px;
 }
