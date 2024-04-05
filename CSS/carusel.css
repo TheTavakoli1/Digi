@@ -155,6 +155,8 @@ main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent
 main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.value div.discount {
     width: 150px;
     height: 26px;
+    margin-top: 18px;
+    margin-left: 32px;
 }
 
 main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.value div.discount span {
