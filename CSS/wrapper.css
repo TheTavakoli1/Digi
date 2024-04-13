@@ -50,14 +50,14 @@ main.wrapper div.parent_wrapper div.wrapper span a div.image {
 
 main.wrapper div.parent_wrapper div.wrapper span a div.image img {
     width: 100%;
-    height: inherit;
+    height: auto;
 }
 
 main.wrapper div.parent_wrapper div.wrapper span a p {
     text-align: center;
     font-family: Yekan;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     color: rgb(12 12 12);
-    margin-top: 8px;
+    margin-top: 32px;
 }

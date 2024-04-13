@@ -53,7 +53,7 @@ main.wrapper div.grid div.swiper4 .swiper-wrapper div.swiper-slide a div.all {
 
 main.wrapper div.grid div.swiper4 .swiper-wrapper div.swiper-slide a div.all div.image {
     width: 44.44%;
-    height: 84px;
+    height: 90px;
     background-color: rgb(240, 240, 241);
     margin: 0 auto;
     border-radius: 50%;
@@ -63,7 +63,7 @@ main.wrapper div.grid div.swiper4 .swiper-wrapper div.swiper-slide a div.all div
 main.wrapper div.grid div.swiper4 .swiper-wrapper div.swiper-slide a div.all div.image img {
     width: 71.5%;
     height: 60px;
-    margin: 0 auto;
+    margin: 4px auto;
 }
 
 main.wrapper div.grid div.swiper4 .swiper-wrapper div.swiper-slide a div.all h4 {

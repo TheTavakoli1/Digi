@@ -78,7 +78,7 @@ main.wrapper div.parent_digiplus div.digiplus div.left {
     height: 355px;
     background-color: #ffffff;
     display: inline-block;
-    margin-right: 4px;
+    margin-right: 8px;
     border-radius: 16px;
     padding: 0 16px 0 16px;
 }
@@ -159,6 +159,6 @@ main.wrapper div.parent_digiplus div.digiplus div.left div.product a {
 }
 
 main.wrapper div.parent_digiplus div.digiplus div.left div.product a img {
-    width: 100%;
-    height: inherit;
+    width: 92%;
+    height: 120px;
 }

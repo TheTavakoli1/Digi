@@ -126,6 +126,11 @@ main.wrapper div.parent_sell div.sell div.all div.swiper8 div.swiper-wrapper div
     margin-left: 12px;
 }
 
+main.wrapper div.parent_sell div.sell div.all div.swiper8 div.swiper-wrapper div.swiper-slide a div.image img{
+    width: 80%;
+    height: auto;
+}
+
 main.wrapper div.parent_sell div.sell div.all div.swiper8 div.swiper-wrapper div.swiper-slide a span {
     width: 2.5%;
     height: 30px;

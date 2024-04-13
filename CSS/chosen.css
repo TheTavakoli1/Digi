@@ -57,14 +57,34 @@ main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 {
 }
 
 main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper {
-    width: inherit;
+    width: 100%;
     height: inherit;
-    background-color: rgb(224 224 241)
+    
 }
 
 main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide {
     width: 16.5%;
     height: 242px;
+    border-right: 1px solid rgb(240 240 241);
+    border-bottom: 1px solid rgb(240 240 241);
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide:nth-of-type(1){
+    width: 16.5%;
+    height: 242px;
+    border-right: unset;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide:nth-of-type(2){
+    width: 16.5%;
+    height: 242px;
+    border-right: unset;
+}
+
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide:nth-of-type(3){
+    width: 16.5%;
+    height: 242px;
+    border-right: unset;
 }
 
 main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a {
@@ -84,11 +104,11 @@ main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrappe
     height: 154px;
 }
 
-main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.image {
-    width: 75%;
-    height: 150px;
+main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.image img {
+    width: 60%;
+    height: auto;
     object-fit: cover;
-    margin: 0 26px;
+    margin: 0 auto;
 }
 
 main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price {
@@ -100,7 +120,6 @@ main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrappe
 main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price div.top {
     width: 100%;
     height: 34px;
-
 }
 
 main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price div.top div.right {
@@ -119,6 +138,8 @@ main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrappe
     font-weight: 600;
     color: rgb(255 255 255);
     vertical-align: middle;
+    line-height: 20px;
+    margin-bottom: 2px;
 }
 
 main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price div.top div.left {
@@ -160,6 +181,7 @@ main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrappe
 main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price div.botton {
     width: 100%;
     height: 26px;
+    position: relative;
 }
 
 main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrapper div.swiper-slide a div.all div.price div.botton span {
@@ -167,7 +189,8 @@ main.wrapper div.parent_chosen div.chosen div.grid div.swiper9 div.swiper-wrappe
     font-size: 12px;
     font-weight: 400;
     color: rgb(192 194 197);
-    margin-right: 97px;
+    position: absolute;
+    left: 38px;
     text-decoration-line: line-through;
     text-decoration-color: rgb(192 194 197);
     text-decoration-style: solid;

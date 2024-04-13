@@ -1,5 +1,5 @@
 main.wrapper div.carousel {
-    width: 70%;
+    width: 87.5%;
     height: 300px;
     margin: 18px auto;
     background-color: #ef3b51;
@@ -82,7 +82,7 @@ main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent
 }
 
 main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.image {
-    width: 100%;
+    width: 89.5%;
     height: 150px;
     margin-bottom: 4px;
 }
@@ -90,6 +90,7 @@ main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent
 main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.image img {
     width: inherit;
     height: inherit;
+    margin: 0 auto;
 }
 
 main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.value {
@@ -155,16 +156,15 @@ main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent
 main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.value div.discount {
     width: 150px;
     height: 26px;
-    margin-top: 18px;
-    margin-left: 32px;
+    text-align: left;
 }
 
 main.wrapper div.carousel div.swiper3 div.swiper-wrapper div.slide2 a div.parent div.value div.discount span {
     font-family: Yekan;
     font-size: 12px;
     font-weight: 400;
+    margin-left: 8px;
     color: rgb(192 194 197);
-    margin-right: 50px;
     text-decoration: line-through 1px rgb(192 194 197);
 }
 
