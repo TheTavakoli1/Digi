@@ -1,124 +1,110 @@
-main.wrapper div.parent_grouping {
+main.wrapper div.parent_grouping{
     width: 87.5%;
     height: 418px;
     margin: 16px auto;
 }
 
-main.wrapper div.parent_grouping div.grouping {
+main.wrapper div.parent_grouping div.grouping{
     width: 100%;
     height: inherit;
-    margin: 16px auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(224 224 241);
+    border-radius: 16px;
 }
 
-main.wrapper div.parent_grouping div.grouping div {
-    width: 24.9%;
-    height: 416px;
+main.wrapper div.parent_grouping div.grouping div.child{
+    width: 25%;
+    height: inherit;
     display: inline-block;
-    margin-left: -2px;
-    text-align: center;
-    padding: 8px 20px;
+    margin-left: -4px;;
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(224 224 241);
 }
 
-main.wrapper div.parent_grouping div.grouping div a span:nth-of-type(1) {
-    font-family: Yekan;
-    font-size: 12px;
-    font-weight: 600;
-    color: rgb(25 191 211);
-    vertical-align: middle;
+main.wrapper div.parent_grouping div.grouping div.child:nth-of-type(1){
+    border-right: unset;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 
-main.wrapper div.parent_grouping div.grouping div a span:nth-of-type(2) {
-    font-size: 12px;
-    font-weight: 600;
-    color: rgb(25 191 211);
-    vertical-align: middle;
+main.wrapper div.parent_grouping div.grouping div.child:nth-of-type(4){
+    border-left: unset;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
 }
 
-main.wrapper div.parent_grouping div.grouping div.group1 {
-    border: 1px solid rgb(224 224 241);
-    border-radius: 0 16px 16px 0px;
-}
-
-main.wrapper div.parent_grouping div.grouping div.group2 {
-    border-top: 1px;
-    border-right: 0px;
-    border-bottom: 1px;
-    border-color: rgb(224 224 241);
-    border-style: solid;
-}
-
-main.wrapper div.parent_grouping div.grouping div.group3 {
-    border-top: 1px;
-    border-bottom: 1px;
-    border-right: 0;
-    border-left: 1px;
-    border-color: rgb(224 224 241);
-    border-style: solid;
-}
-
-main.wrapper div.parent_grouping div.grouping div.group4 {
-    border-top: 1px;
-    border-bottom: 1px;
-    border-right: 0;
-    border-color: rgb(224 224 241);
-    border-style: solid;
-    border-radius: 16px 0 0 16px;
-}
-
-main.wrapper div.parent_grouping div.grouping div div.text {
-    width: 87.9%;
+main.wrapper div.parent_grouping div.grouping div.child div.text{
+    width: 88%;
     height: 65px;
-    margin-bottom: 8px;
-    text-align: right;
+    padding-top: 12px;
+    margin: 0 auto;
 }
 
-main.wrapper div.parent_grouping div.grouping div div.text h4 {
+main.wrapper div.parent_grouping div.grouping div.child div.text h4{
     font-family: Yekan;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     color: rgb(35 37 78);
     margin-bottom: 8px;
-    margin-right: -18px;
 }
 
-main.wrapper div.parent_grouping div.grouping div div.text p {
+main.wrapper div.parent_grouping div.grouping div.child div.text p{
     font-family: Yekan;
     font-size: 11px;
     font-weight: 400;
     color: rgb(129 133 139);
-    margin-right: -18px;
 }
 
-main.wrapper div.parent_grouping div.grouping div div.swiper6 {
-    width: 97%;
+main.wrapper div.parent_grouping div.grouping div.child div.product{
+    width: 88%;
     height: 293px;
-}
-
-main.wrapper div.parent_grouping div.grouping div div.swiper6 .swiper-wrapper {
-    width: 293px;
-    height: 293px;
-    text-align: right;
-    margin-right: -36px;
-    margin-top: -17px;
     background-color: rgb(224 224 241);
+    margin: 0 auto;
 }
 
-main.wrapper div.parent_grouping div.grouping div div.swiper6 .swiper-wrapper div.swiper-slide {
-    width: 146px;
-    height: 145px;
-    margin-right: -4px;
+main.wrapper div.parent_grouping div.grouping div.child div.product div.products{
+    width: 49.99%;
+    height: 147px;
+    display: inline-block;
+    margin-left: -3px;
+    border-bottom: 1px solid rgb(224 224 241) ;
 }
 
-main.wrapper div.parent_grouping div.grouping div div.swiper6 .swiper-wrapper div.swiper-slide a {
-    width: 146px;
-    height: 145px;
-    margin-right: -3px;
+main.wrapper div.parent_grouping div.grouping div.child div.product div.products a{
+    width: 100%;
+    height: inherit;
+    display: block;
+    background-color: white;
+    text-align: center;
 }
 
-main.wrapper div.parent_grouping div.grouping div div.swiper6 .swiper-wrapper div.swiper-slide a img {
-    width: 130px;
-    height: 130px;
-    margin-right: -12px;
-    margin-top: -24px;
-
+main.wrapper div.parent_grouping div.grouping div.child div.product div.products a img{
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    vertical-align: top;
+    margin-top: 8px;
 }
+
+main.wrapper div.parent_grouping div.grouping div.child div.show{
+    width: 88%;
+    height: 26px;
+    margin: 4px auto 12px auto;
+    text-align: center;
+    line-height: 26px;
+}
+
+main.wrapper div.parent_grouping div.grouping div.child div.show a{
+    width: 100%;
+    height: inherit;
+}
+
+main.wrapper div.parent_grouping div.grouping div.child div.show a span{
+    font-family: Yekan;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(25 191 211);
+}
+
