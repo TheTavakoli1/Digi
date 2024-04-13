@@ -19,7 +19,7 @@ main.wrapper div.parent_digiplus div.digiplus div.right {
     height: 355px;
     display: inline-block;
     padding-top: 24px;
-    margin-left: 12px;
+    margin-left: 8px;
     vertical-align: top;
 }
 
@@ -78,15 +78,15 @@ main.wrapper div.parent_digiplus div.digiplus div.left {
     height: 355px;
     background-color: #ffffff;
     display: inline-block;
-    margin-right: 4px;
+    margin-right: -4px;
     border-radius: 16px;
-    padding: 0 16px 0 16px;
+    
 }
 
 main.wrapper div.parent_digiplus div.digiplus div.left div.text {
     width: 100%;
     height: 66px;
-    padding: 16px 0 16px 0;
+    padding: 16px;
     position: relative;
 }
 
@@ -148,10 +148,11 @@ main.wrapper div.parent_digiplus div.digiplus div.left div.product {
     width: 100%;
     height: 280px;
     padding-bottom: 20px;
+    margin-right: 12px;
 }
 
 main.wrapper div.parent_digiplus div.digiplus div.left div.product a {
-    width: 13.9%;
+    width: 13.5%;
     height: 116px;
     display: inline-block;
     margin-right: 19px;
