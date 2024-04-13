@@ -35,7 +35,7 @@ main.wrapper div.parent_digiclub div.digiclub div.right a svg {
 }
 
 main.wrapper div.parent_digiclub div.digiclub div.left {
-    width: 61%;
+    width: 64%;
     height: 64px;
     display: inline-block;
     position: absolute;
@@ -62,7 +62,7 @@ main.wrapper div.parent_digiclub div.digiclub div.left div a div.one {
     height: 26px;
     display: inline-block;
     vertical-align: top;
-    margin-right: 15px;
+    margin-right: 12px;
     margin-top: 16px;
     line-height: 26px;
 }
@@ -84,7 +84,7 @@ main.wrapper div.parent_digiclub div.digiclub div.left div a div.one span:nth-of
 }
 
 main.wrapper div.parent_digiclub div.digiclub div.left div a div.two {
-    width: 61%;
+    width: 60%;
     height: 60px;
     display: inline-block;
 }
@@ -92,6 +92,7 @@ main.wrapper div.parent_digiclub div.digiclub div.left div a div.two {
 main.wrapper div.parent_digiclub div.digiclub div.left div a div.two img {
     width: 100%;
     height: inherit;
+    object-fit: cover;
 }
 
 main.wrapper div.parent_digiclub div.digiclub div.left div.gift a div.two {
